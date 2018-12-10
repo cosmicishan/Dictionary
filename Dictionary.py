@@ -42,9 +42,9 @@ while(sign):
         while(True):
             print("\nEnter the proper commad")
             check = input("Do you want to get meaning of another word if yes press Y else N : ")
-            if check == 'y' and 'n' and 'Y' and 'N':
+            if check == 'y' and 'Y':
                 break
-            elif check == 'y' and 'n' and 'Y' and 'N':
+            elif check == 'n' and 'N':
                 print("\nHave a Nice day")
                 sign = False
                 break
