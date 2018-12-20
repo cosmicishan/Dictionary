@@ -17,7 +17,7 @@ def translate(w):
     else:
         return 'This word doen\'t exist check the word twice.'
 
-#print("The dictionary contain {} words of english language ".format(len(data)))        
+print("The dictionary contain {} words of english language ".format(len(data)))        
 sign = True
 while(sign):    
     word = input("\nEnter the word you want to see the meaning : ")
